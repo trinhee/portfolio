@@ -2,6 +2,7 @@ import './Nav.css'
 
 function Nav() {
   return (
+    
     <header className="header">
         <a href="/" className="logo">E</a>
 
@@ -13,7 +14,7 @@ function Nav() {
           <a href="/" id='resume'>Resume</a>
 
         </nav>
-    </header>
+    </header>    
   );
 }
 
