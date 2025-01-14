@@ -1,0 +1,61 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 3%;
+    background-color: #0a192f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 38px;
+    color: white;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 15px;
+    color: #a8b2d1;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.navbar a:not(#resume)::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #64ffda;
+}
+
+.navbar a:not(#resume):hover::before {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.navbar a:not(#resume):hover {
+    color:#64ffda;
+}
+
+#resume {
+    color: #64ffda;
+    border-radius: 5px;
+    border: 1px solid #64ffda;
+    padding: 10px 20px;
+    border-style: solid;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+#resume:hover {
+    transform: translate(-5px,-5px);
+    box-shadow: 0px 0px 20px rgba(100, 255, 218, 0.5);
+}
