@@ -54,8 +54,11 @@ body {
 #kawi {
     display: inline-block; /* Ensures it behaves like a button */
     color: #64ffda; /* Button text color */
+    font-family: 'Kanit', serif;
     font-size: 16px; /* Font size */
     font-weight: 500; /* Slightly bold text */
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
     text-decoration: none; /* Remove underline */
     padding: 12px 24px; /* Padding for the button feel */
     border: 1px solid #64ffda; /* Border color */
