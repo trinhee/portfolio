@@ -1,6 +1,6 @@
 import Nav from './Nav.tsx'
 import Hero from './Hero.tsx'
-import About from './about.tsx'
+import About from './About.tsx'
 import './index.css'
 import IconLinkedin from './linkedin.tsx';
 import IconGithub from './github.tsx'
@@ -29,7 +29,12 @@ function App() {
           <IconInstagram />
           <IconTwitter/>
         </div>
-        <div className="vertical-line"></div>
+        <div className="left-line"></div>
+      </div>
+      
+      <div className="right-sidebar">
+        <a href= "mailto:ethan.trinh4@gmail.com">ethan.trinh4@gmail.com</a>
+        <div className="right-line"></div>
       </div>
     </>
     
