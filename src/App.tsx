@@ -1,17 +1,37 @@
 import Nav from './Nav.tsx'
-import Hero from './hero.tsx'
+import Hero from './Hero.tsx'
+import About from './about.tsx'
 import './index.css'
+import IconLinkedin from './linkedin.tsx';
+import IconGithub from './github.tsx'
+import IconInstagram from './instagram.tsx';
+import IconTwitter from './loader.tsx';
+import './side.css'
 
 function App() {
   
   return(
     <>
     <div>
-      <Nav></Nav>
+      <Nav/>
     </div>
     <div>
-      <Hero></Hero>
-    </div></>
+      <Hero/>
+    </div>
+    <div>
+      <About/>
+    </div>
+
+    <div className="left-sidebar">
+        <div className="icon-container">
+          <IconLinkedin />
+          <IconGithub />
+          <IconInstagram />
+          <IconTwitter/>
+        </div>
+        <div className="vertical-line"></div>
+      </div>
+    </>
     
   );
 }
