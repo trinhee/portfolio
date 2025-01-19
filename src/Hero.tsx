@@ -10,6 +10,8 @@ function Hero(){
             <p className='description'>
               I'm a software developer, computer science student, and innovator. I also have a love for cats!
             </p>
+
+            <a href="https://docs.google.com/presentation/d/1V-RjEP-uA9VNTSAPscU4xPDbIRitUe7VRgzZmBwhuwg/edit?usp=sharing" id="kawi" target='_blank'>Meet Kawi!</a>
         </div>
     </body>
     );
