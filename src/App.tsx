@@ -5,7 +5,7 @@ import './index.css'
 import IconLinkedin from './linkedin.tsx';
 import IconGithub from './github.tsx'
 import IconInstagram from './instagram.tsx';
-import IconTwitter from './loader.tsx';
+import IconTwitter from './twitter.tsx';
 import './side.css'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
 
     <div className="left-sidebar">
         <div className="icon-container">
-          <IconLinkedin />
+          <IconLinkedin/>
           <IconGithub />
           <IconInstagram />
           <IconTwitter/>
