@@ -27,7 +27,7 @@ function App() {
           <IconLinkedin/>
           <IconGithub />
           <IconInstagram />
-          <IconTwitter/>``
+          <IconTwitter/>
         </div>
         <div className="left-line"></div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import './About.css';
-import pfp from './images/pfp.jpg'
+import pfp from './images/me.jpg'
 
 const About: React.FC = () => {
   const { ref, inView } = useInView({
@@ -13,9 +13,7 @@ const About: React.FC = () => {
     <section className="about-section" id="about" ref={ref}>
       <div className={`about-container ${inView ? 'fade-in' : ''}`}>
         <div className="about-text">
-          <h2>
-            <span className="section-number"></span> About Me
-          </h2>
+          <h2>About Me</h2>
           <p>
             Hello! My name is Ethan and I love bringing my random ideas to life. My interest in technology started back in 2014 when I discovered Redstone in Minecraft. Turns out circuits and logic gates aren't just a Minecraft thing.
           </p>
