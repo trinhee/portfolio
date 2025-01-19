@@ -46,7 +46,7 @@ function Nav() {
           <a href="#about">About</a>
           <a href="/">Experience</a>
           <a href="/">Work</a>
-          <a href="/">Contact</a>
+          <a href="#contact">Contact</a>
           <a href="https://docs.google.com/document/d/1RMDgc0sYO-VZ823LUVCbRsq7WWdMIvKz2-h5Cxn1lGI/edit?usp=drive_link" target="_blank" id='resume'>Resume</a>
 
         </nav>

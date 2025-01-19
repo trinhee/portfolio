@@ -1,0 +1,59 @@
+.contact-section {
+opacity: 0; /* Initially hidden */
+transform: translateY(20px); /* Start slightly below */
+transition: all 0.5s ease-in-out; /* Smooth transition */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 100vh;
+padding: 100px 20px;
+margin-top: 50px;
+}
+
+.contact-section.in-view {
+opacity: 1; /* Fully visible */
+transform: translateY(0); /* Reset position */
+}
+
+.contact-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ccd6f6;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #8892b0;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.contact-link {
+    display: inline-block; /* Ensures it behaves like a button */
+    color: #64ffda; /* Button text color */
+    font-family: 'Kanit', serif;
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Slightly bold text */
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    text-decoration: none; /* Remove underline */
+    padding: 12px 24px; /* Padding for the button feel */
+    border: 1px solid #64ffda; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Transparent background */
+    margin-top: 5px; /* Space between the description and button */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-link:hover{
+
+    background-color: #64ffda; /* Highlight background on hover */
+    color: #0a192f; /* Change text color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0px 4px 15px rgba(100, 255, 218, 0.4); /* Glow effect */
+}

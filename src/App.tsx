@@ -1,6 +1,7 @@
 import Nav from './Nav.tsx'
 import Hero from './Hero.tsx'
 import About from './About.tsx'
+import Contact from './Contact.tsx'
 import './index.css'
 import IconLinkedin from './linkedin.tsx';
 import IconGithub from './github.tsx'
@@ -21,6 +22,9 @@ function App() {
     </div>
     <div>
       <About/>
+    </div>
+    <div>
+      <Contact/>
     </div>
 
     <div className="left-sidebar">
