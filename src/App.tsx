@@ -6,6 +6,7 @@ import IconLinkedin from './linkedin.tsx';
 import IconGithub from './github.tsx'
 import IconInstagram from './instagram.tsx';
 import IconTwitter from './twitter.tsx';
+import IconYoutube from './youtube.tsx';
 import './side.css'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <div className="icon-container">
           <IconLinkedin/>
           <IconGithub />
+          <IconYoutube/>
           <IconInstagram />
           <IconTwitter/>
         </div>

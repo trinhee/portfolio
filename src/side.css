@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px; /* Space between icons */
+    gap: 20px; /* Space between icons */
   }
   
   .icon-container svg {
@@ -52,7 +52,7 @@
     text-orientation: mixed;
     text-decoration: none;
     color: #a8b2d1;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 3px;
     margin-bottom: 10px;
     transition: all 0.3s ease;
