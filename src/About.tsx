@@ -18,12 +18,12 @@ const About: React.FC = () => {
             Hello! My name is Ethan and I love bringing my random ideas to life. My interest in technology started back in 2014 when I discovered Redstone in Minecraft. Turns out circuits and logic gates aren't just a Minecraft thing.
           </p>
           <p>
-            Fast-forward to more recent events — I've gained experience as an intern at
-            <a href='https://www.thefabricator.com/directory/showroom/invisual-e-inc' target='_blank'> technology firm</a>, a member of an <a href="https://www.westernuai.ca" target='_blank'> AI club</a>, and as an <a href='https://www.bytekodehackathon.devpost.com/' target='_blank'> event organizer</a>. These days, my main focus these days is building cool,
-            useful, and practical projects while studying at <a href="#">Western University</a> .
+            Fast-forward to more recent events — I've gained experience as an intern at a
+            <a href='https://www.thefabricator.com/directory/showroom/invisual-e-inc' target='_blank'> technology firm</a>, a member of an <a href="https://www.westernuai.ca" target='_blank'> AI club</a>, and as an <a href='https://www.bytekodehackathon.devpost.com/' target='_blank'> event organizer</a>. These days, my main focus is building cool,
+            useful, and practical projects while studying at <a href="#">Western University</a>.
           </p>
           <p>
-            Here are a few technologies I've been working with recently:
+            Here are a few languages and technologies I've been working with recently:
           </p>
           <ul className="tech-list">
             <li>Python</li>

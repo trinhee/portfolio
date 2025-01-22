@@ -20,6 +20,7 @@ body {
     padding: 20px; /* Add padding for spacing */
     text-align: left;
     box-sizing: border-box;
+    margin-right: 100px;
 }
 
 .intro {
