@@ -11,7 +11,7 @@ function Hero(){
               I'm a software developer, computer science student, and innovator. I also have a love for cats!
             </p>
 
-            <a href="https://docs.google.com/presentation/d/1V-RjEP-uA9VNTSAPscU4xPDbIRitUe7VRgzZmBwhuwg/edit?usp=sharing" id="kawi" target='_blank'>Meet my pal Kawi !</a>
+            <a href="files/Ethan and Kawi.pdf" id="kawi" target='_blank'>Meet my pal Kawi !</a>
         </div>
     </body>
     );
