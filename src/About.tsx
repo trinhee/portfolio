@@ -1,9 +1,8 @@
-import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import './About.css';
 import pfp from './images/me.jpg'
 
-const About: React.FC = () => {
+function About() {
   const { ref, inView } = useInView({
     threshold: 0.2, // Trigger animation when 20% of the component is visible
     triggerOnce: true, // Animate only once

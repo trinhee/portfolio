@@ -17,6 +17,7 @@
   }
   
   .icon-container svg {
+    color: #a8b2d1;
     width: 20px;
     height: 20px;
     cursor: pointer;
