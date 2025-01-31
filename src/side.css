@@ -57,6 +57,7 @@
     letter-spacing: 3px;
     margin-bottom: 10px;
     transition: all 0.3s ease;
+    margin-right: 5px;
 }
 
 .right-sidebar a:hover {
@@ -68,6 +69,7 @@
     height: 100px;
     background-color: #a8b2d1;
     margin-top: 20px;
+    margin-right: 5px;
 }
 
 .icon-link {

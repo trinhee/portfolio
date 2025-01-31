@@ -1,7 +1,7 @@
 import Nav from './Nav.tsx'
 import Hero from './Hero.tsx'
 import About from './About.tsx'
-// import Experience from './Experience.tsx'
+import Experience from './Experience.tsx'
 import Contact from './Contact.tsx'
 import './index.css'
 import IconLinkedin from './linkedin.tsx';
@@ -25,7 +25,7 @@ function App() {
       <About/>
     </div>
     <div>
-      
+      <Experience/>
     </div>
     <div>
       <Contact/>

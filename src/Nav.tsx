@@ -44,7 +44,7 @@ function Nav() {
 
         <nav className="navbar">
           <a href="#about">About</a>
-          <a href="/">Experience</a>
+          <a href="#experience">Experience</a>
           <a href="/">Work</a>
           <a href="#contact">Contact</a>
           <a href="/files/Resume - Ethan Trinh.pdf" target="_blank" id='resume'>Resume</a>
