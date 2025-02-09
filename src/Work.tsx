@@ -16,7 +16,9 @@ function Work() {
                 </div>
 
                 <div className="github-photo">
+                    <a href="https://www.github.com/trinhee" target="_blank">
                     <img src={github} alt="Github"></img>
+                    </a>
                 </div>
             </div>
         </section>
